@@ -8,7 +8,7 @@ on:
 
 jobs:
   check-software-versions:
-    runs-on: utility
+    runs-on: self-hosted
 
     steps:
       # Checkout the code repository (if needed)
